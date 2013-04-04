@@ -18,14 +18,16 @@
  * Theme version info
  *
  * @package    theme
- * @subpackage royal
- * @copyright  2010 Patrick Malley (http://newschoollearning.com/)
+ * @subpackage saturn
+ * @copyright 2013 Gordon McLeod @LearnTribe        
+ * based on Binarius by Patrick Malley (http://newschoollearning.com/)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- * Based on Binarius - Modified by Gordon McLeod  -  @LearnTribe
  */
 
 defined('MOODLE_INTERNAL') || die;
 
 $plugin->version   = 2013030402; // The current module version (Date: YYYYMMDDXX)
-$plugin->requires  = 2011081700; // Requires this Moodle version
+$plugin->requires  = 2012110900; // Requires this Moodle version
 $plugin->component = 'theme_saturn'; // Full name of the plugin (used for diagnostics)
+$plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = "1.0";
